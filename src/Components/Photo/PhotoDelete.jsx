@@ -7,7 +7,7 @@ const PhotoDelete = ({ id }) => {
   const { loading, request } = useFetch();
 
   async function handleClick() {
-    const token = window.localStorage.getItem('token')
+    const token = window.localStorage.getItem('token');
     const confirm = window.confirm('Tem certeza que deseja deletar?');
     if (confirm) {
       const { url, options } = PHOTO_DELETE(id, token);
