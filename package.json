@@ -8,6 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "homepage": "https://<gabrieldegodoy>.github.io/<dogs>",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
